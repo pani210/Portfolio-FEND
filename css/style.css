@@ -1,0 +1,189 @@
+
+.parent11 {
+ display: flex;
+ flex-direction: row;
+ border: 1px solid;
+ box-shadow: 10px 10px 10px 10px #666147;
+}
+
+
+.child1a {
+  width: 50%;
+  padding: 2%;
+}
+
+
+.child1b {
+  width: 50%;
+  text-align: end;
+  padding-right: 2%;
+}
+
+
+.logo {
+  width: 200px;
+}
+
+/*banner style for  logo*/
+.banner {
+  width: 100%;
+  height: 450px;
+}
+
+
+.middle {
+  margin: 1%;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.laps {
+  width: 31%;
+  border: 1px solid;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;  box-shadow: 5px 5px 5px 5px #ddd;
+  background: linear-gradient(135deg, orange, orange 60%, cyan);
+  border-radius: 25px;
+  border-style: groove;
+}
+
+
+.laps:hover {
+  border: 2px solid #0000d6;
+}
+
+/* Animated styles hover for device */
+.device {
+  width: 75%;
+  height: 50%;
+  padding-top: 3%;
+ }
+
+
+.latest {
+  padding-left: 2%;
+}
+
+/* Hover style for laps */
+.laps:hover {
+  background-color: #ff80ff;
+}
+
+/* Hover style for device */
+.device:hover {
+  transform: scale(0.9);
+}
+
+/* footer style*/
+footer {
+  text-align: center;
+  background-color: #3b3b3b;
+  color: #fff;
+}
+.cards{
+  border: 1px solid #000;
+  background: linear-gradient(135deg, orange, orange 60%, cyan);
+}
+
+/*media query for mobile view */
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+  .child1a,.child1b {
+    width:100%;
+  }
+
+  .parent11 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .logo {
+    width:180px;
+  }
+
+
+  header {
+    text-align: center;
+  }
+
+  .Banner {
+    height: 100%;
+  }
+
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+.laps {
+    width: 98%;
+    border: 1px solid;
+    margin: 1%;
+    padding: 3%;
+}
+
+/* Animated style for button*/
+button {
+  border-radius: 30px;
+  color: #ffffff;
+  margin-bottom:15%;
+  background-color: #0000d6;
+}
+}
+
+/*media query for tablet view*/
+@media only screen and (min-width:768px) and (max-width:1023px) {
+  .child1a,.child1b {
+    width:100%;
+  }
+
+
+  .parent11 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    text-align: center;
+  }
+
+
+  .logo {
+    width:180px;
+  }
+
+
+  header {
+    text-align: center;
+  }
+
+
+  .Banner {
+    height: 100%;
+  }
+
+
+.laps {
+  width: 40%;
+  border: 1px solid;
+  margin: 1%;
+  padding: 3%;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+}
